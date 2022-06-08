@@ -56,7 +56,7 @@ def main():
     
     # test method_name = "fibonacci_M" using memoization
     print("\n\n Fibonacci using memoization")
-    for i in range(38 + 1): # we can generate the fibonacci numbers up to 38 (500 for example)
+    for i in range(100 + 1): # we can generate the fibonacci numbers up to 38 (500 for example)
         start_time = time()
         print(fibonacci_M(i), end=" ") # call the fibonacci_M function
         # print(fibonacci(i), end=" ") # call the fibonacci traditional function
